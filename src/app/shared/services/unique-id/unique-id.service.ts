@@ -18,8 +18,8 @@ export class UniqueServiceId {
         return `${prefix}-${uniqueId}`;
     }
 
-    public getNumberOfGenerateUniqueIds() {
-        return this.numberOfGenerateIds
+    public getNumberOfGenerateUniqueIds(): number {
+        return this.numberOfGenerateIds;
     }
 
     private generateUniqueId(): string {
